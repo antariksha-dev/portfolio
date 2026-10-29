@@ -1,10 +1,10 @@
 export const socialLinks = [
-  { id: 'x', label: 'X (Twitter)', href: '#', isPlaceholder: true },
-  { id: 'github', label: 'GitHub', href: '#', isPlaceholder: true },
-  { id: 'linkedin', label: 'LinkedIn', href: '#', isPlaceholder: true },
+  { id: 'x', label: 'X (Twitter)', href: 'https://x.com/antariksharma', isPlaceholder: false },
+  { id: 'github', label: 'GitHub', href: 'https://github.com/antariksha-dev', isPlaceholder: false },
+  { id: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/antariksha-sharma', isPlaceholder: false },
 ]
 
 export const emailContact = {
-  address: 'mhn@example.com',
-  isPlaceholder: true,
+  address: 'hello@antariksha.dev',
+  isPlaceholder: false,
 }
