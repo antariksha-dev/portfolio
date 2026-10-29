@@ -1,6 +1,11 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 @theme {
   --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 
